@@ -9,6 +9,6 @@ filename = file_selectbox()
 
 st.title(":blue[Initial Analysis]")
 df = getdata(filename)
-df.info()
-st.dataframe(df.head())
+###    df.info()
+###    st.dataframe(df.head())
 
